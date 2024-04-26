@@ -1,0 +1,42 @@
+{
+    "name": "Name - The Name of the spell that will be used",
+    "spellId": "Id - The spell ID on which to identify it by",
+    "effects": {
+        "effect1": {
+            "effectId": "Id - The Effect ID on which to identify this effect.",
+            "effectName": "Name - The name of the effect.",
+            "damage": {
+                "amount": 10,
+                "type": "Fire",
+                "target": "Target"
+            },
+            "radius": 5
+        },
+        "effect2": {
+            "effectId": "Id - The Effect ID on which to identify this effect.",
+            "effectName": "Name - The name of the effect.",
+            "duration": "Time - Duration of the effect ex: 1d (s - seconds, m - minutes, h - hours, d - days, mo - months, y - years)",
+            "damage": {
+                "amount": 1,
+                "type": "Fire",
+                "target": "Target"
+            }
+        },
+        "effect3": {
+            "effectId": "Id - The Effect ID on which to identify this effect.",
+            "effectName": "Name - The name of the effect.",
+            "chance": {
+                "range": 50,
+                "success": {
+                    "damage": 20,
+                    "type": "Fire",
+                    "target": "Target"
+                },
+                "failure": {
+                    "damage": 20,
+                    "target": "Self"
+                }
+            }
+        }
+    }
+}

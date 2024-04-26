@@ -1,0 +1,23 @@
+Start from main ->
+	Go to menu ->
+		Sort players to chosen action ->
+			Craft Spells ->
+				Player names the spell ->
+					Create .json file with spell name and effects ->
+						Player appends spell effects to the spell ->
+							Write in "effects" the abilities of it. Spell_id will be made.
+						Player can remove spell effects ->
+							Remove spell based on selected ID.
+						Players can finish spells -> BREAK LOOP
+					LOOP
+			Edit Spells ->
+				Player can select spells from a list, based on it's id ->
+					(x) -> 
+						Select a spell effect by name
+				Player select spells directly ->
+					Same as (x)
+					
+
+						
+			Look at Spellbook ->
+			Quit the Game -> x
