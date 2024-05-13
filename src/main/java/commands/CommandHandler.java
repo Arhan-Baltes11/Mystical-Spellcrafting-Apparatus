@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 import src.main.java.spellcrafting.Spellcrafter;
 
-public class MenuCommands {
-    public void menuCommandReader(int commandNum, Scanner comm) {
+public class CommandHandler {
+    public static void menuCommandReader(int commandNum, Scanner comm) {
         switch (commandNum) {
             case 1:
                 Spellcrafter.craftSpellMenu(comm);
@@ -19,5 +19,16 @@ public class MenuCommands {
                 break;
         }
         return;
+    }
+
+    public static void spellcrafterCommandReader(int commandNum, Scanner comm) {
+        switch (commandNum) {
+            case 1:
+                // Do 1
+                break;
+            case 2:
+                // Do 2
+                break;
+        }
     }
 }
